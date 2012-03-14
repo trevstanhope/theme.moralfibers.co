@@ -95,11 +95,12 @@
 	</div>	
 
 	<div class="product-meta">
-  		<h2 class="section-title">Description</h2>
+
   		<div id="product-options">
   			<div class="product-display-price"><?php print $node->content['display_price']['#value']; ?></div>
   			<?php print $node->content['add_to_cart']['#value']; ?>
   		</div>
+		<h2 class="section-title">Description</h2>
 		<div class="product-description"><?php print $node->content['body']['#value']; ?></div>
   		<h2 class="section-title">Artist Bio</h2>
   		<div class="artist-bio">
