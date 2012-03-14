@@ -95,14 +95,14 @@ h2.title,
 
 /* positioning for header (two rows)*/
 #header-icons {
-  margin-top: -250px;
-  margin-left: 650px;
+  margin-top: -150px;
+  margin-left: 700px;
   width: 350px;
 }
 
 #header-icons2 {
-  margin-top: -10px;
-  margin-left: 650px;
+  margin-top: -20px;
+  margin-left: 700px;
   width: 350px;
 }
 
