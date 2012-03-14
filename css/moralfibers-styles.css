@@ -93,10 +93,16 @@ h2.title,
 	border: none;
 }
 
-/* positioning for header */
+/* positioning for header (two rows)*/
 #header-icons {
   margin-top: -250px;
-  margin-left: 40px;
+  margin-left: 50px;
+  width: 350px;
+}
+
+#header-icons2 {
+  margin-top: -300px;
+  margin-left: 850px;
   width: 350px;
 }
 
