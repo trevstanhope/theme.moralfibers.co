@@ -96,13 +96,13 @@ h2.title,
 /* positioning for header (two rows)*/
 #header-icons {
   margin-top: -250px;
-  margin-left: 600px;
+  margin-left: 650px;
   width: 350px;
 }
 
 #header-icons2 {
-  margin-top: -260px;
-  margin-left: 600px;
+  margin-top: -10px;
+  margin-left: 650px;
   width: 350px;
 }
 
