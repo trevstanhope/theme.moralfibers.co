@@ -96,16 +96,17 @@
 
 	<div class="product-meta">
   		<h2 class="section-title">Description</h2>
-  		<div class="product-description"><?php print $node->content['body']['#value']; ?></div>
+  		<div id="product-options">
+  			<div class="product-display-price"><?php print $node->content['display_price']['#value']; ?></div>
+  			<?php print $node->content['add_to_cart']['#value']; ?>
+  		</div>
+		<div class="product-description"><?php print $node->content['body']['#value']; ?></div>
   		<h2 class="section-title">Artist Bio</h2>
   		<div class="artist-bio">
   			<?php print $artist->teaser; ?>
   			<div class="artist-more"><a href="/node/<?php print $artist->nid; ?>">MORE</a></div>
   		</div>
-  		<div id="product-options">
-  			<div class="product-display-price"><?php print $node->content['display_price']['#value']; ?></div>
-  			<?php print $node->content['add_to_cart']['#value']; ?>
-  		</div>
+
 	</div> <!-- /.product-meta -->
 
 	<?php print $tshirt_photos; ?>
