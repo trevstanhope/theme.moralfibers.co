@@ -1,7 +1,7 @@
 name        = Moral Fibers
 description = Custom zen-based theme for Moral Fibers
 
-screenshot = screenshot.png
+screenshot = logo.png
 
 core       = 6.x
 base theme = zen
